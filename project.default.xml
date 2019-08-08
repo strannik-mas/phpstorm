@@ -1,0 +1,21 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="NodePackageJsonFileManager">
+        <packageJsonPaths />
+      </component>
+      <component name="PhpCodeSniffer">
+        <phpcs_settings>
+          <PhpCSConfiguration max_messages_per_file="100" standards="MySource;PEAR;PSR1;PSR12;PSR2;Squiz;Zend" tool_path="$USER_HOME$/AppData/Roaming/Composer/vendor/bin/phpcs" />
+        </phpcs_settings>
+      </component>
+      <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+      <component name="PropertiesComponent">
+        <property name="last_opened_file_path" value="D:/курсы/курсы Специалист/Специалист - Видеокурсы по Интернет-технологиям/[Специалист] Эксперт по программированию на JavaScript ( + jQuery + AJAX + Node.js) (2016)/Уровень 2/dop_mat" />
+        <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+        <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+        <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+      </component>
+    </defaultProject>
+  </component>
+</application>

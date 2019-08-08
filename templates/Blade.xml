@@ -1,0 +1,48 @@
+<templateSet group="Blade">
+  <template name="@i" value="@if($VAR_VALUE$)&#10;&#10;@endif" description="if-endif" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR_VALUE" expression="" defaultValue="true" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="@ife" value="@if($VAR_VALUE$)&#10;&#10;@else&#10;&#10;@endif" description="if-else-endif" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR_VALUE" expression="" defaultValue="true" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="@fore" value="@foreach($ITERABLE$ as $VAR_VALUE$)&#10;    $END$&#10;@endforeach" description="foreach-endforeach" toReformat="true" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="phpSuggestVariableName()" defaultValue="&quot;$item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="@sec" value="@section($VAR_VALUE$)&#10;&#10;@endsection" description="section-endsection" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR_VALUE" expression="" defaultValue="''" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="@fo" value="@for ($VAR_VALUE$) &#10;&#10;@endfor" description="for-endfor" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR_VALUE" expression="phpSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
