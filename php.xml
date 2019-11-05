@@ -3,23 +3,22 @@
     <phpmd_settings_migrated />
   </component>
   <component name="PhpCodeSniffer">
-    <phpcs_settings_migrated />
     <phpcs_settings>
       <PhpCSConfiguration max_messages_per_file="100" standards="MySource;PEAR;PSR1;PSR12;PSR2;Squiz;Zend" tool_path="$USER_HOME$/AppData/Roaming/Composer/vendor/bin/phpcs" />
     </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="648dbde5-7fd0-40d1-8730-79931a0e157e" name="PHP 7.1" home="C:\OSPanel\modules\php\PHP_7.1-x64\php.exe" debugger_id="php.debugger.XDebug" />
-      <interpreter id="3e5b4084-64c7-4a7d-a9d3-5c9e909fbfc0" name="PHP 7.2" home="C:\OSPanel\modules\php\PHP_7.2-x64\php.exe" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\OSPanel\modules\php\PHP-7.1-x64\php.exe" id="648dbde5-7fd0-40d1-8730-79931a0e157e" name="PHP 7.1" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\OSPanel\modules\php\PHP_7.2-x64\php.exe" id="3e5b4084-64c7-4a7d-a9d3-5c9e909fbfc0" name="PHP 7.2" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 7.1">
-        <phpinfo binary_type="PHP" php_cgi="C:\OSPanel\modules\php\PHP_7.1-x64\php-cgi.exe" php_cli="C:\OSPanel\modules\php\PHP_7.1-x64\php.exe" path_separator=";" version="7.1.22">
+        <phpinfo binary_type="PHP" php_cgi="C:\OSPanel\modules\php\PHP-7.1-x64\php-cgi.exe" php_cli="C:\OSPanel\modules\php\PHP-7.1-x64\php.exe" path_separator=";" version="7.1.12">
           <additional_php_ini />
-          <configuration_file>C:\OSPanel\modules\php\PHP_7.1-x64\php.ini</configuration_file>
+          <configuration_file>C:\OSPanel\modules\php\PHP-7.1-x64\php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
@@ -40,7 +39,7 @@
             <configuration_option name="browscap" value="" />
             <configuration_option name="cli.pager" value="" />
             <configuration_option name="cli.prompt" value="\b \&gt; " />
-            <configuration_option name="curl.cainfo" value="c:/ospanel/modules/php/PHP_7.1-x64/cacert.pem" />
+            <configuration_option name="curl.cainfo" value="c:/ospanel/modules/php/PHP-7.1-x64/cacert.pem" />
             <configuration_option name="date.default_latitude" value="31.7667" />
             <configuration_option name="date.default_longitude" value="35.2333" />
             <configuration_option name="date.sunrise_zenith" value="90.583333" />
@@ -59,7 +58,7 @@
             <configuration_option name="enable_dl" value="" />
             <configuration_option name="enable_post_data_reading" value="1" />
             <configuration_option name="error_append_string" value="" />
-            <configuration_option name="error_log" value="c:/ospanel/userdata/logs/PHP_7.1-x64_error.log" />
+            <configuration_option name="error_log" value="c:/ospanel/userdata/logs/PHP-7.1-x64_error.log" />
             <configuration_option name="error_prepend_string" value="" />
             <configuration_option name="error_reporting" value="22519" />
             <configuration_option name="exif.decode_jis_intel" value="JIS" />
@@ -69,7 +68,7 @@
             <configuration_option name="exif.encode_jis" value="" />
             <configuration_option name="exif.encode_unicode" value="ISO-8859-15" />
             <configuration_option name="expose_php" value="" />
-            <configuration_option name="extension_dir" value="c:/ospanel/modules/php/PHP_7.1-x64/ext/" />
+            <configuration_option name="extension_dir" value="c:/ospanel/modules/php/PHP-7.1-x64/ext/" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -90,7 +89,7 @@
             <configuration_option name="ignore_repeated_source" value="" />
             <configuration_option name="ignore_user_abort" value="" />
             <configuration_option name="implicit_flush" value="1" />
-            <configuration_option name="include_path" value=".;c:/ospanel/modules/php/PHP_7.1-x64;c:/ospanel/modules/php/PHP_7.1-x64/PEAR/pear" />
+            <configuration_option name="include_path" value=".;c:/ospanel/modules/php/PHP-7.1-x64;c:/ospanel/modules/php/PHP-7.1-x64/PEAR/pear" />
             <configuration_option name="input_encoding" value="" />
             <configuration_option name="internal_encoding" value="" />
             <configuration_option name="log_errors" value="1" />
@@ -150,7 +149,7 @@
             <configuration_option name="odbc.max_links" value="-1" />
             <configuration_option name="odbc.max_persistent" value="-1" />
             <configuration_option name="open_basedir" value="" />
-            <configuration_option name="openssl.cafile" value="c:/ospanel/modules/php/PHP_7.1-x64/cacert.pem" />
+            <configuration_option name="openssl.cafile" value="c:/ospanel/modules/php/PHP-7.1-x64/cacert.pem" />
             <configuration_option name="openssl.capath" value="" />
             <configuration_option name="output_buffering" value="0" />
             <configuration_option name="output_encoding" value="" />
@@ -165,32 +164,21 @@
             <configuration_option name="precision" value="14" />
             <configuration_option name="realpath_cache_size" value="2048k" />
             <configuration_option name="realpath_cache_ttl" value="600" />
-            <configuration_option name="redis.arrays.autorehash" value="0" />
-            <configuration_option name="redis.arrays.connecttimeout" value="0" />
-            <configuration_option name="redis.arrays.distributor" value="" />
+            <configuration_option name="redis.arrays.autorehash" value="" />
             <configuration_option name="redis.arrays.functions" value="" />
             <configuration_option name="redis.arrays.hosts" value="" />
-            <configuration_option name="redis.arrays.index" value="0" />
-            <configuration_option name="redis.arrays.lazyconnect" value="0" />
+            <configuration_option name="redis.arrays.index" value="" />
             <configuration_option name="redis.arrays.names" value="" />
-            <configuration_option name="redis.arrays.pconnect" value="0" />
             <configuration_option name="redis.arrays.previous" value="" />
-            <configuration_option name="redis.arrays.readtimeout" value="0" />
-            <configuration_option name="redis.arrays.retryinterval" value="0" />
-            <configuration_option name="redis.clusters.persistent" value="0" />
-            <configuration_option name="redis.clusters.read_timeout" value="0" />
+            <configuration_option name="redis.clusters.read_timeout" value="" />
             <configuration_option name="redis.clusters.seeds" value="" />
-            <configuration_option name="redis.clusters.timeout" value="0" />
-            <configuration_option name="redis.session.lock_expire" value="0" />
-            <configuration_option name="redis.session.lock_retries" value="10" />
-            <configuration_option name="redis.session.lock_wait_time" value="2000" />
-            <configuration_option name="redis.session.locking_enabled" value="0" />
+            <configuration_option name="redis.clusters.timeout" value="" />
             <configuration_option name="register_argc_argv" value="1" />
             <configuration_option name="report_memleaks" value="" />
             <configuration_option name="report_zend_debug" value="0" />
             <configuration_option name="request_order" value="GP" />
             <configuration_option name="sendmail_from" value="" />
-            <configuration_option name="sendmail_path" value="c:\ospanel\modules\sendmail\sendmail.exe -local" />
+            <configuration_option name="sendmail_path" value="c:\ospanel\modules\sendmail\sendmail.exe -t" />
             <configuration_option name="serialize_precision" value="-1" />
             <configuration_option name="session.auto_start" value="0" />
             <configuration_option name="session.cache_expire" value="180" />
