@@ -1,0 +1,5 @@
+<application>
+  <component name="TerminalOptionsProvider">
+    <option name="myShellPath" value="C:\OSPanel\modules\git\bin\bash.exe" />
+  </component>
+</application>
