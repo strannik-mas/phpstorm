@@ -1,9 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <removed_mapping ext="inc" approved="true" type="PHP" />
-      <mapping ext="inc" type="ReST" />
-      <removed_mapping ext="inc" approved="true" type="PHP" />
+      <removed_mapping ext="inc" approved="true" type="ReST" />
     </extensionMap>
   </component>
 </application>
