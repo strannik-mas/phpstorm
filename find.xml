@@ -18,9 +18,10 @@
     <mask>list_ship*</mask>
     <mask>checkout*</mask>
     <mask>*.js</mask>
-    <mask>*blade.php</mask>
     <mask>*.php</mask>
     <mask>*.ini</mask>
+    <mask>*blade.php</mask>
+    <mask>*.rst</mask>
     <mask>*.blade.php</mask>
   </component>
 </application>
