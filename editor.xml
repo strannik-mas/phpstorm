@@ -3,7 +3,7 @@
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc; *.php; *.js" />
   </component>
-  <component name="LiveEditOptions" chromeUpdateJSOnChanges="true" restartIfHotSwapFailed="true" useJBChromeExtension="true">
+  <component name="LiveEditOptions" chromeAutoDelay="100" chromeUpdateJSOnChanges="true" restartIfHotSwapFailed="true" useJBChromeExtension="true">
     <option name="elementHighlighting" value="true" />
   </component>
 </application>
