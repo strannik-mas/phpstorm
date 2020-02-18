@@ -1,4 +1,8 @@
 <application>
+  <component name="CssEmmetOptions">
+    <option name="fuzzySearchEnabled" value="true" />
+    <option name="unknownPropertiesExpansionEnabled" value="true" />
+  </component>
   <component name="EmmetOptions">
     <option name="filtersEnabledByDefault">
       <set>
