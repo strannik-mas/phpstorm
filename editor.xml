@@ -1,7 +1,7 @@
 <application>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
-    <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc; *.php; *.js, *.html, *.htm" />
+    <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc; *.php; *.js, *.html, *.htm, *.vue" />
   </component>
   <component name="LiveEditOptions" chromeAutoDelay="100" chromeUpdateJSOnChanges="true" restartIfHotSwapFailed="true" useJBChromeExtension="true">
     <option name="elementHighlighting" value="true" />
