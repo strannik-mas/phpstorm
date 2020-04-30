@@ -11,6 +11,7 @@
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.php" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -23,7 +24,6 @@
     <mask>*.css</mask>
     <mask>list_ship*</mask>
     <mask>checkout*</mask>
-    <mask>*.php</mask>
     <mask>*.ini</mask>
     <mask>*.rst</mask>
     <mask>*.vue</mask>
@@ -31,5 +31,6 @@
     <mask>*.blade.php</mask>
     <mask>*er.php</mask>
     <mask>*blade.php</mask>
+    <mask>*.php</mask>
   </component>
 </application>
