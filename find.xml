@@ -9,6 +9,7 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.css" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -18,7 +19,6 @@
     <mask>*.mxml</mask>
     <mask>.gitconfig</mask>
     <mask>account*.blade.php</mask>
-    <mask>*.css</mask>
     <mask>list_ship*</mask>
     <mask>checkout*</mask>
     <mask>*.ini</mask>
@@ -29,5 +29,6 @@
     <mask>*blade.php</mask>
     <mask>*.rst</mask>
     <mask>*.php</mask>
+    <mask>*.css</mask>
   </component>
 </application>
