@@ -1,8 +1,0 @@
-<application>
-  <component name="FileTypeManager" version="17">
-    <extensionMap>
-      <mapping ext="styl" type="Native" />
-      <removed_mapping ext="inc" approved="true" type="ReST" />
-    </extensionMap>
-  </component>
-</application>

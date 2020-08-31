@@ -1,16 +1,4 @@
 <application>
-  <component name="PhpCodeSniffer">
-    <phpcs_settings>
-      <PhpCSConfiguration max_messages_per_file="100" standards="MySource;PEAR;PSR1;PSR12;PSR2;Squiz;Zend" tool_path="$USER_HOME$/AppData/Roaming/Composer/vendor/bin/phpcs" />
-    </phpcs_settings>
-  </component>
-  <component name="PhpInterpreters">
-    <interpreters>
-      <interpreter id="648dbde5-7fd0-40d1-8730-79931a0e157e" name="PHP 7.1" home="C:\OSPanel\modules\php\PHP_7.1-x64\php.exe" debugger_id="php.debugger.XDebug" />
-      <interpreter id="3e5b4084-64c7-4a7d-a9d3-5c9e909fbfc0" name="PHP 7.2" home="C:\OSPanel\modules\php\PHP_7.2-x64\php.exe" debugger_id="php.debugger.XDebug" />
-      <interpreter id="844568fd-61a1-4e81-8d0c-e80aef7fe9ed" name="PHP 7.3-64" home="C:\OSPanel\modules\php\PHP_7.3-x64\php.exe" debugger_id="php.debugger.XDebug" />
-    </interpreters>
-  </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 7.1">
