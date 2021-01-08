@@ -15,10 +15,10 @@
     <mask>*.ctp</mask>
     <mask>*blade.php</mask>
     <mask>*.ts</mask>
-    <mask>*.js</mask>
     <mask>*.php</mask>
     <mask>*.blade.php</mask>
     <mask>*.vue</mask>
     <mask>*.scss</mask>
+    <mask>*.js</mask>
   </component>
 </application>
