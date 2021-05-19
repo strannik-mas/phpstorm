@@ -11,6 +11,7 @@
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
@@ -24,10 +25,10 @@
     <mask>*blade.php</mask>
     <mask>*.ts</mask>
     <mask>*.scss</mask>
-    <mask>*.js</mask>
     <mask>*.vue</mask>
     <mask>*.blade.php</mask>
     <mask>*routes.php</mask>
     <mask>*.php</mask>
+    <mask>*.js</mask>
   </component>
 </application>
