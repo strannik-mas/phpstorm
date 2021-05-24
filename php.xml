@@ -1,9 +1,4 @@
 <application>
-  <component name="PhpInterpreters">
-    <interpreters>
-      <interpreter id="a47f28f7-2759-48a8-8161-d6183875296e" name="PHP 7.1" home="C:\OSPanel\modules\php\PHP_7.1-x64\php.exe" debugger_id="php.debugger.XDebug" />
-    </interpreters>
-  </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 7.1">
