@@ -4,4 +4,8 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="exom" value="$NAME$-&gt;expects(self::once)-&gt;method(&quot;$PARAMETERS$&quot;)$END$;" description="PHPUnit expects(self::once)-&gt;method();" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
 </templateSet>
