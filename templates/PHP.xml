@@ -4,9 +4,19 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="exom" value="$NAME$-&gt;expects(self::once)-&gt;method(&quot;$PARAMETERS$&quot;)$END$;" description="PHPUnit expects(self::once)-&gt;method();" toReformat="false" toShortenFQNames="true">
+  <template name="exom" value="$NAME$-&gt;expects(self::once())-&gt;method(&quot;$METHOD$&quot;)-&gt;with($PARAMETER$)-&gt;willReturn($END$);" description="PHPUnit expects(self::once)-&gt;method();" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="exem" value="$NAME$-&gt;expects(self::exactly($COUNT$))-&gt;method(&quot;$METHOD$&quot;)-&gt;with($PARAMETER$)-&gt;willReturn($END$);" description="PHPUnit expects(self::exactly())-&gt;method();" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COUNT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETER" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
