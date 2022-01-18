@@ -20,8 +20,8 @@
     <mask>*.vue</mask>
     <mask>*routes.php</mask>
     <mask>*.blade.php</mask>
-    <mask>*.php</mask>
     <mask>*.ts</mask>
     <mask>*.js</mask>
+    <mask>*.php</mask>
   </component>
 </application>
