@@ -1,26 +1,21 @@
 <application>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="ebcff3a2-9734-42e5-8274-124083b8eba8" name="PHP 7.1" home="C:\OSPanel\modules\php\PHP_7.1-x64\php.exe" debugger_id="php.debugger.XDebug" />
+      <interpreter id="ebcff3a2-9734-42e5-8274-124083b8eba8" name="PHP 7.1" home="C:\OpenServer\modules\php\PHP_7.1\php.exe" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 7.1">
-        <phpinfo binary_type="PHP" php_cgi="C:\OSPanel\modules\php\PHP_7.1-x64\php-cgi.exe" php_cli="C:\OSPanel\modules\php\PHP_7.1-x64\php.exe" path_separator=";" version="7.1.22">
+        <phpinfo binary_type="PHP" php_cgi="C:\OpenServer\modules\php\PHP_7.1\php-cgi.exe" php_cli="C:\OpenServer\modules\php\PHP_7.1\php.exe" path_separator=";" version="7.1.33">
           <additional_php_ini />
-          <configuration_file>C:\OSPanel\modules\php\PHP_7.1-x64\php.ini</configuration_file>
+          <configuration_file>C:\OpenServer\modules\php\PHP_7.1\php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".;c:/ospanel/modules/php/PHP_7.1-x64;c:/ospanel/modules/php/PHP_7.1-x64/PEAR/pear" />
+            <configuration_option name="include_path" value="." />
           </configuration_options>
-          <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.5.5">
-              <debug_extensions />
-            </debugger_info>
-          </debuggers>
+          <debuggers />
           <loaded_extensions>
             <extension name="Core" />
-            <extension name="PDFlib" />
             <extension name="PDO" />
             <extension name="Phar" />
             <extension name="Reflection" />
@@ -33,6 +28,7 @@
             <extension name="curl" />
             <extension name="date" />
             <extension name="dom" />
+            <extension name="enchant" />
             <extension name="exif" />
             <extension name="fileinfo" />
             <extension name="filter" />
@@ -41,13 +37,11 @@
             <extension name="gettext" />
             <extension name="hash" />
             <extension name="iconv" />
-            <extension name="igbinary" />
-            <extension name="imap" />
+            <extension name="imagick" />
             <extension name="json" />
             <extension name="libxml" />
             <extension name="mbstring" />
             <extension name="mcrypt" />
-            <extension name="mongodb" />
             <extension name="mysqli" />
             <extension name="mysqlnd" />
             <extension name="odbc" />
@@ -57,17 +51,14 @@
             <extension name="pdo_pgsql" />
             <extension name="pdo_sqlite" />
             <extension name="readline" />
-            <extension name="redis" />
             <extension name="session" />
             <extension name="soap" />
             <extension name="sockets" />
             <extension name="sqlite3" />
             <extension name="standard" />
-            <extension name="timecop" />
             <extension name="timezonedb" />
             <extension name="tokenizer" />
             <extension name="wddx" />
-            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlrpc" />
