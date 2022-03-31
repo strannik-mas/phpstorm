@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="localWholeWordsOnly" value="true" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.css</mask>
     <mask>*.html</mask>
@@ -18,8 +20,8 @@
     <mask>*.vue</mask>
     <mask>*routes.php</mask>
     <mask>*.blade.php</mask>
-    <mask>*.php</mask>
     <mask>*.ts</mask>
     <mask>*.js</mask>
+    <mask>*.php</mask>
   </component>
 </application>
