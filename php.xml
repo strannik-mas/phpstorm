@@ -2,7 +2,7 @@
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="ebcff3a2-9734-42e5-8274-124083b8eba8" name="PHP 7.1" home="C:\OpenServer\modules\php\PHP_7.1\php.exe" debugger_id="php.debugger.XDebug" />
-      <interpreter id="f7ff0617-a5ee-4066-ab41-328fcebd85e5" name="PHP 7.4" home="C:\OpenServer\modules\php\PHP_7.4\php.exe" debugger_id="php.debugger.XDebug" />
+      <interpreter id="f7ff0617-a5ee-4066-ab41-328fcebd85e5" name="PHP 7.4" home="C:\OpenServer\modules\php\PHP_7.4\php.exe" debugger_id="php.debugger.XDebug" debugger_extension="C:\OpenServer\modules\php\PHP_7.4\ext\php_xdebug.dll" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
@@ -26,6 +26,7 @@
             <extension name="Reflection" />
             <extension name="SPL" />
             <extension name="SimpleXML" />
+            <extension name="Zend OPcache" />
             <extension name="bcmath" />
             <extension name="bz2" />
             <extension name="calendar" />
