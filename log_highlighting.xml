@@ -1,0 +1,7 @@
+<application>
+  <component name="LogHighlightingSettings">
+    <settingsVersion>4</settingsVersion>
+    <lastAddedDefaultFormat>3</lastAddedDefaultFormat>
+    <readonlySizeThreshold>100000</readonlySizeThreshold>
+  </component>
+</application>
